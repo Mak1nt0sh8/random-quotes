@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Inter", sans-serif;
   background: linear-gradient(135deg, #1e1e2f, #12121a);
   color: #ffffff;
   display: flex;
@@ -35,17 +35,15 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
+#custom-text {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+}
+
 h1 {
   margin-bottom: 20px;
   font-size: 28px;
   font-weight: 600;
-}
-
-#quote {
-  font-size: 20px;
-  line-height: 1.6;
-  min-height: 80px;
-  transition: opacity 0.3s ease;
 }
 
 button {
@@ -67,4 +65,27 @@ button:hover {
 
 button:active {
   transform: scale(0.98);
+}
+
+#btn {
+  padding: 18px 35px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 35px;
+  background: #5a4fcf;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(90, 79, 207, 0.4);
+  transition: all 0.3s ease;
+}
+
+#btn:hover {
+  background: #7b6def;
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(123, 109, 239, 0.35);
+}
+
+#btn:active {
+  transform: scale(0.97);
+  box-shadow: 0 4px 15px rgba(90, 79, 207, 0.3);
 }

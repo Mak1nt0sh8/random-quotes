@@ -1,6 +1,6 @@
-let quotes = [
+const quotes = [
   "Small progress every day beats big promises someday.",
-  "You dont need motivation — you need a decision.",
+  "You don't need motivation — you need a decision.",
   "Discipline is choosing what you want most over what you want now.",
 ];
 
@@ -9,7 +9,6 @@ const button = document.getElementById("btn");
 
 function generateQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
-  console.log(randomIndex);
   const randomQuote = quotes[randomIndex];
   quoteElement.textContent = randomQuote;
 }

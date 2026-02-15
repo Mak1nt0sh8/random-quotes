@@ -89,3 +89,11 @@ button:active {
   transform: scale(0.97);
   box-shadow: 0 4px 15px rgba(90, 79, 207, 0.3);
 }
+
+#quote-author {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+  opacity: 0.8;
+}

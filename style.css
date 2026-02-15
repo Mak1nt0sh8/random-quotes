@@ -25,6 +25,16 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
+.middle-container {
+  margin: 20px 0;
+  padding: 15px 20px;
+  background: #1e1e1e;
+  border-radius: 15px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
 h1 {
   margin-bottom: 20px;
   font-size: 28px;

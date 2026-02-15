@@ -3,54 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <title>Random Quote Generator</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background: #111;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        text-align: center;
-      }
 
-      .container {
-        max-width: 600px;
-      }
-
-      button {
-        margin-top: 20px;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Random Quote Generator</h1>
-      <p id="quote"></p>
-      <button id="btn">click the button to get a random quote</button>
+      <h1>quotes</h1>
+
+      <!-- New container -->
+      <div class="middle-container">
+        <p id="custom-text">click to get a random quote</p>
+      </div>
+
+      <button id="btn">generate quote</button>
     </div>
 
-    <script>
-      const quotes = [];
-
-      const quoteElement = document.getElementById("quote");
-      const button = document.getElementById("btn");
-
-      function generateQuote() {
-        if (quotes.length === 0) {
-          quoteElement.innerText = "No quotes available.";
-          return;
-        }
-
-        const randomIndex = Math.floor(Math.random() * quotes.length);
-        quoteElement.innerText = quotes[randomIndex];
-      }
-
-      button.addEventListener("click", generateQuote);
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -46,46 +46,27 @@ h1 {
   font-weight: 600;
 }
 
-button {
+.main-btn {
   margin-top: 25px;
-  padding: 12px 25px;
-  font-size: 16px;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  background: #6c5ce7;
-  color: white;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  background: #a29bfe;
-  transform: scale(1.05);
-}
-
-button:active {
-  transform: scale(0.98);
-}
-
-#btn {
   padding: 18px 35px;
   font-size: 18px;
   font-weight: 600;
+  border: none;
   border-radius: 35px;
+  cursor: pointer;
   background: #5a4fcf;
   color: #ffffff;
-  cursor: pointer;
   box-shadow: 0 6px 20px rgba(90, 79, 207, 0.4);
   transition: all 0.3s ease;
 }
 
-#btn:hover {
+.main-btn:hover {
   background: #7b6def;
   transform: scale(1.05);
   box-shadow: 0 8px 25px rgba(123, 109, 239, 0.35);
 }
 
-#btn:active {
+.main-btn:active {
   transform: scale(0.97);
   box-shadow: 0 4px 15px rgba(90, 79, 207, 0.3);
 }
@@ -95,5 +76,53 @@ button:active {
   font-size: 18px;
   font-weight: 600;
   margin-top: 15px;
+  opacity: 0.8;
+}
+
+/* ✅ Favorites window styles */
+.favorites-window {
+  margin-top: 25px;
+  padding: 18px 20px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  text-align: left;
+}
+
+.favorites-window h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.favorites-list {
+  max-height: 160px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.favorites-empty {
+  opacity: 0.7;
+  font-size: 14px;
+  text-align: center;
+}
+
+.favorite-item {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 12px 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.favorite-quote {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.favorite-author {
+  margin-top: 6px;
+  font-size: 14px;
   opacity: 0.8;
 }

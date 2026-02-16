@@ -22,9 +22,19 @@
         <p id="quote-author">(author)</p>
       </div>
 
-      <button id="btn">Generate quote</button>
+      <button id="btn" class="main-btn">Generate quote</button>
+      <button id="toggle-favorite-btn" class="main-btn" type="button">
+        Add to favorites
+      </button>
+
+      <div class="favorites-window">
+        <h2>Favorites</h2>
+        <div id="favorites-list" class="favorites-list">
+          <p class="favorites-empty">No favorites yet</p>
+        </div>
+      </div>
     </div>
 
-    <script type="module " src="script.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
